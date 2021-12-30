@@ -1,0 +1,71 @@
+name: GUNb
+main: Gun\Main
+api: [3.0.0]
+version: 1
+author: birdkkk<?php
+namespace Gun;
+use pocketmine\Server;
+use pocketmine\Player;
+use pocketmine\event\Listener;
+use pocketmine\plugin\PluginBase;
+use pocketmine\entity\Entity;
+use pocketmine\nbt\tag\CompoundTag;
+use pocketmine\nbt\tag\DoubleTag;
+use pocketmine\nbt\tag\ListTag;
+use pocketmine\nbt\tag\FloatTag;
+use pocketmine\event\player\PlayerUseFishingRodEvent;
+use pocketmine\event\player\PlayerRespawnEvent;
+use pocketmine\scheduler\PluginTask;
+class Main extends PluginBase implements Listener{
+	public $ammo = [];
+	function onEnable(){
+		$this->getServer()->getPluginManager()->registerEvents($this,$this);
+	}
+	function onRe(PlayerRespawnEvent $event){
+		$this->ammo[$event->getPlayer()->getName()] = 6;
+	}
+	function ontap(PlayerUseFishingRodEvent $event){
+		$player = $event->getPlayer();
+		$name = $player->getName();
+		if($this->ammo[$name] > 0){
+			$nbt = new CompoundTag("", [
+				"Pos" => new ListTag("Pos", [
+					new DoubleTag("", $player->x),
+					new DoubleTag("", $player->y + $player->getEyeHeight()),
+					new DoubleTag("", $player->z)
+					]),
+				"Motion" => new ListTag("Motion", [
+					new DoubleTag("", -sin($player->yaw / 180 * M_PI) * cos($player->pitch / 180 * M_PI) * 2),
+					new DoubleTag("", -sin($player->pitch / 180 * M_PI)),
+					new DoubleTag("", cos($player->yaw / 180 * M_PI) * cos($player->pitch / 180 * M_PI) * 2)
+					]),
+				"Rotation" => new ListTag("Rotation", [
+					new FloatTag("", $player->yaw),
+					new FloatTag("", $player->pitch)
+					]),
+				]);
+			$entity =  Entity::createEntity(80, $player->getLevel(), $nbt, $player);
+			$entity->setMotion($entity->getMotion()->multiply(2));
+			$entity->spawnToAll();
+			--$this->ammo[$name];
+		}elseif($this->ammo[$name] == 0){
+			$this->getServer()->getScheduler()->scheduleDelayedTask(new Task($this, $player), 20*5);
+			$player->sendTip("§eReloading...");
+			--$this->ammo[$name];
+		}else{
+			$player->sendTip("§eReloading!!");
+		}
+		$event->setCancelled();
+	}
+}
+class Task extends PluginTask{
+	public function __construct(PluginBase $owner, Player $player){
+		parent::__construct($owner);
+		$this->owner = $owner;
+		$this->player = $player;
+	}
+	public function onRun($currentTick){
+		$this->owner->ammo[$this->player->getName()] = 6;
+		$this->player->sendTip("§eReload complete!!");
+	}
+}

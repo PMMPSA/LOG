@@ -1,0 +1,116 @@
+GenisysPro Crash Dump Sat Sep 30 11:18:40 CST 2017
+
+Error: syntax error, unexpected 'protected' (T_PROTECTED), expecting ',' or ';'
+File: /plugins/REDUP-master/src/REDUP/Main
+Line: 32
+Type: notice
+
+THIS CRASH WAS CAUSED BY A PLUGIN
+
+Code:
+[23] class Main extends PluginBase{
+[24]   public function onEnable(){
+[25]     $this->getLogger()->info("REDUP đã hoạt động!");
+[26]   }
+[27]   public function onDisable(){
+[28]     $this->getLogger()->info("REDUP đã dừng!");
+[29]   }
+[30]   
+[31]   protected $expLevel = 1
+[32]   protected $exp = '0';
+[33]   public function set
+[34] }
+[35] }
+[36] }
+[37] 
+[38] 
+[39] 
+[40] 
+[41] 
+[42] 
+
+Backtrace:
+#0 (): spl_autoload_call(string REDUP\Main)
+#1 /src/pocketmine/plugin/FolderPluginLoader(76): class_exists(string REDUP\Main, boolean 1)
+#2 /src/pocketmine/plugin/PluginManager(159): pocketmine\plugin\FolderPluginLoader->loadPlugin(string /storage/emulated/0/PocketMine/plugins/REDUP-master)
+#3 /src/pocketmine/plugin/PluginManager(346): pocketmine\plugin\PluginManager->loadPlugin(string /storage/emulated/0/PocketMine/plugins/REDUP-master, array Array())
+#4 /src/pocketmine/Server(1897): pocketmine\plugin\PluginManager->loadPlugins(string /storage/emulated/0/PocketMine/plugins/)
+#5 /src/pocketmine/PocketMine(492): pocketmine\Server->__construct(BaseClassLoader object, pocketmine\utils\MainLogger object, string /storage/emulated/0/PocketMine/, string /storage/emulated/0/PocketMine/, string /storage/emulated/0/PocketMine/plugins/)
+
+GenisysPro version: 0000000000000000000000000000000000000000 [Protocol 113; API 3.0.1]
+uname -a: Linux localhost 3.10.49-perf-g88f85af-01152-gc2a3a9d #1 SMP PREEMPT Sat Apr 22 07:47:29 CST 2017 aarch64
+PHP version: 7.0.9
+Zend version: 3.0.0
+OS : Linux, android
+
+Server uptime: 7 seconds
+Number of loaded worlds: 0
+Players online: 0/20
+
+Loaded plugins:
+TapToDo 2.2.1 by Falk for API(s) 1.0.0
+KillChat 1.0.2.MOD by Array for API(s) 1.9.0, 2.0.0
+iProtector 3.1b by LDX for API(s) 1.9.0, 2.0.0
+NoFrameDrop 1 by  for API(s) 3.0.0, 3.0.1, 3.0.0-ALPHA1, 3.0.0-ALPHA2, 3.0.0-ALPHA3, 3.0.0-ALPHA3, 3.0.0-ALPHA4, 3.0.0-ALPHA5, 3.0.0-ALPHA6
+PocketGuard 2.1.1 by MinecrafterJPN for API(s) 1.10.0
+ClearYourInv 1.0.0 by Martin77Epic for API(s) 1.0.0, 2.0.0, 1.15.0
+AdminFun 1.0.0 by hoyinm14mc for API(s) 1.12.0, 1.13.0, 2.0.0
+EasierTime 1.2 by Ad5001 for API(s) 2.0.0
+InventorySize 1 by MaxFreeze for API(s) 2.0.0
+NetherChests 1.1.1 by aliuly for API(s) 1.12.0
+Titler 0.1.0 by Niekert for API(s) 3.0.0, 3.0.0-ALPHA5, 3.0.0-ALPHA6, 3.0.0-ALPHA7, 3.0.1
+Broadcaster 1.16 by EvolSoft for API(s) 1.12.0
+CalculatorPE 1.0.0 by Vaivez66 for API(s) 1.12.0
+SignModifier 1.0.0 by wolfdale for API(s) 1.3.1
+MisteryBox 1 by ISAAC300, ProjectTeamPHP for API(s) 2.0.0
+SimpleAuth 1.8.1 by PocketMine Team, shoghicp, awzaw for API(s) 2.0.0, 3.0.0-ALPHA1, 3.0.0-ALPHA2, 3.0.0-ALPHA3, 3.0.0-ALPHA4, 3.0.0-ALPHA5
+EconomyAPI 2.0.9 by onebone for API(s) 2.0.0
+PurePerms 1.3.7 by 64FF00 & ProjectInfinity for API(s) 1.13.0, 2.0.0
+Trade[PTK] 1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+BlockSniper 1.3.4 by BlockHorizons for API(s) 2.0.0, 2.1.0, 3.0.0-ALPHA1, 3.0.0-ALPHA2, 3.0.0-ALPHA3, 3.0.0-ALPHA4
+AutoInv[PTK] 1.0.0 by PTK-KienPham for API(s) 1.0.0, 2.0.0
+BaoLoi[PTK] 1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+ChatToolsPro 1.2 by paetti for API(s) 1.0.0, 2.0.0, 3.0.0, 3.0.0-ALPHA, 3.0.0-ALPHA1, 4.0.0, 5.0.0
+BanSystem 1.0.3 by xXSuperFrostyXx, randy128gamer for API(s) 2.0.0, 2.1.0, 2.2.0, 2.3.0, 2.4.0
+Bar2 0.1v_beta by PTK-KienPham for API(s) 1.0.0, 2.0.0, 2.1.0, 3.0.0, 3.0.0-ALPHA1, 3.0.0-ALPHA2
+InstantTree[KienPham] 0.2.0 by KienPham for API(s) 1.0.0, 2.0.0
+ChunkLightUpdate 1.0.0 by  for API(s) 3.0.0, 3.0.1, 3.0.0-ALPHA5, 3.0.0-ALPHA6
+Bar 0.1v_beta by PTK-KienPham for API(s) 1.0.0, 2.0.0, 2.1.0, 3.0.0, 3.0.0-ALPHA1, 3.0.0-ALPHA2
+BoGItem[PTK] 1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+CellPE 2.0.0 by Vaivez66, Bajan for API(s) 3.0.0-ALPHA5, 3.0.0-ALPHA6, 3.0.0-ALPHA7
+NapThe[PTK]-F 1 by  for API(s) 2.0.0, 3.0.0
+BlockParticle 1 by PTK for API(s) 2.0.0, 3.0.0
+CrateKeys 1.0.0 by  for API(s) 3.0.0-ALPHA5, 3.0.0-ALPHA6
+PmChair[PTK] 1 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+BuyEc[PTK] 3 by  for API(s) 2.0.0, 3.0.0
+EconomyJob 2.0.4 by KienPham for API(s) 1.0.0, 2.0.0
+Firework[PTK] 1 by PTK-KienPham for API(s) 3.0.0
+ItemCloud 1.1 by KienPham for API(s) 1.4.0, 2.0.0
+Worlds 1.0.9 by  for API(s) 2.0.0, 3.0.0-ALPHA1, 3.0.0-ALPHA2, 3.0.0-ALPHA3, 3.0.0-ALPHA4, 3.0.0-ALPHA5
+ItemCommand 1 by Matrix for API(s) 1.12.0
+MSpawns 1.5 by EvolSoft for API(s) 2.0.0, 3.0.0-ALPHA1, 3.0.0-ALPHA2, 3.0.0-ALPHA3, 3.0.0-ALPHA4
+VipDay[PTK] 1.0.0 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+PlayerShop[PTK] 3.0 by PTK-KienPham for API(s) 1.12.0, 2.0.0
+JoinItems 1 by MaxFreeze for API(s) 2.0.0
+ToCao[PTK] 5 by PTK-KienPham for API(s) 2.0.0, 3.0.0, 3.0.0ALPHA5
+Info[PTK] 2 by PTK-KienPham for API(s) 2.0.0
+Dial[PTK] 0.3.1 by PTK-KienPham for API(s) 2.0.0
+NameCorrector 1.0.0#build011 by PEMapModder for API(s) 1.8.0, 2.0.0
+FactionsPro 1.0 rewrite by PTK-KienPham by Array for API(s) 1.14.0, 2.0.0
+Idea_Aro 1 by PVHB for API(s) 2.0.0
+GiftCode[PTK] 2 by PTK-KienPham for API(s) 2.0.0, 3.0.0
+MineReset 2.2 by Falk for API(s) 1.0.0, 2.0.0
+ItemName[PTK] 0.2german by PTK-KienPham for API(s) 2.0.0, 3.0.0, 3.0.0-ALPHA1, 3.0.0-ALPHA2, 3.0.0-ALPHA3
+Tool[PTK] 2.0.0 by  for API(s) 2.1.0, 2.0.0
+Particles_Shape_BEcraft 1 by BEcraft Gameplay for API(s) 2.0.0, 2.1.0, 3.0.0, 3.0.0-ALPHA4, 3.0.0-ALPHA5
+ManyWorlds 2.1.0 by aliuly for API(s) 2.0.0
+WorldFixer 1.0.1 by CreeperFace for API(s) 1.0.0, 2.0.0, 3.0.0, 3.0.0-ALPHA4, 3.0.0-ALPHA5, 3.0.0-ALPHA6
+NoDropsBlock 1.7.0 by Array for API(s) 1.6.0
+WorldProtect[PTK] 1 by PTK-KienPham for API(s) 2.0.0, 3.0.0-ALPHA1, 3.0.0-ALPHA2, 3.0.0-ALPHA3, 3.0.0-ALPHA4, 3.0.0-ALPHA5
+SignEnchant[PTK] 1 by KienPham for API(s) 1.0.0, 1.1.0, 1.2.0, 1.2.1, 3.0.0-ALPHA6, 3.0.0-ALPHA5, 3.0.0-ALPHA4, 2.0.0
+PlayerVault[PTK] 2 by PTK-KienPham for API(s) 2.0.0, 3.0.0, 3.0.0-ALPHA3, 3.0.0-ALPHA4, 3.0.0-ALPHA5, 3.0.0-ALPHA6, 3.0.0-ALPHA7, 3.0.0-ALPHA8
+MagicWE 0.2.6 by thebigsmileXD for API(s) 1.13.0, 2.0.0
+SlapperRotation 1.0.1 by jojoe77777 for API(s) 2.0.0, 2.1.0, 3.0.0-ALPHA1, 3.0.0-ALPHA2
+Repair[PTK] 3 by PTK-KienPham for API(s) 2.0.0
+LevelSystem 1.0.0 by FAMIMA for API(s) 1.0.0, 2.0.0
+REDNoBreak 0.1 by Adam1609 for API(s) 2.0.0

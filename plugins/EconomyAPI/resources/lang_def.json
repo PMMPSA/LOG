@@ -1,0 +1,67 @@
+{
+    "language": "en",
+	"commands": {
+		"mymoney": {
+			"usage": "/mymoney",
+			"description": "xem tiền"
+		},
+		"topmoney": {
+			"usage": "/topmoney [số trang]",
+			"description": "Xem TopMoney "
+		},
+		"setmoney": {
+			"usage": "/setmoney <player> <amount>",
+			"description": "Set money of player"
+		},
+		"seemoney": {
+			"usage": "/seemoney <player>",
+			"description": "Xem tiền người khác"
+		},
+		"givemoney": {
+			"usage": "/givemoney <player> <amount>",
+			"description": "Gives money to player"
+		},
+		"takemoney": {
+			"usage": "/takemoney <player> <amount>",
+			"description": "Takes money from player" 
+		},
+		"pay": {
+			"usage": "/pay <player> <amount>",
+			"description": "Chuyển tiền"
+		},
+		"setlang": {
+			"usage": "/setlang <language>",
+			"description": "Set your language"
+		},
+		"mystatus": {
+			"usage": "/mystatus",
+			"description": "Shows your status of money"
+		}
+	},
+    "language-set": "Language set to %1 by onebone",
+    "request-cancelled": "§e◊ §aLời đề nghị hết hạn",
+    "player-not-connected": "§e◊ §d%1 §achưa vào",
+    "player-never-connected": "§e◊ §d%1 §achưa từng vào §63F",
+    "topmoney-tag": "§r§a-=§e|§c♦§e| §aT§bo§cp§eM§fo§6n§be§4y§7_§3F§2x§bu §e|§c♦§e|§a=-  §7-( §a%1 §dtrên §a%2 §dtrang §7)-",
+    "topmoney-format": "§e♔ §ä́T̈́§eö́§cp̈́ §7【§b%1§7】 §d%2§7: §e%3 §6Fxu",
+    "pay-failed": "§e◊ §cThanh toán thất bại",
+    "pay-success": "§e◊ §aĐã chuyển §e%1 §6%MONETARY_UNIT%§a đến §d%2",
+    "money-paid": "§e◊ §d%1 §achuyển cho bạn §e%2 §6%MONETARY_UNIT%",
+    "takemoney-must-be-number": "Amount must be numeric",
+    "takemoney-invalid-number": "Invalid number",
+    "takemoney-player-lack-of-money": "%1 does not have enough %MONETARY_UNIT%%2. %1's money : %MONETARY_UNIT%%3",
+    "takemoney-money-taken": "Your %MONETARY_UNIT%%1 have been taken",
+    "takemoney-took-money": "Taken %MONETARY_UNIT%%2 from %1",
+    "takemoney-failed": "You have failed to take money",
+    "givemoney-must-be-number": "§e◊ §cPhải ghi rõ số",
+    "givemoney-invalid-number": "§e◊ §cLỗi số",
+    "givemoney-money-given": "§e◊ §aBạn nhận được §e%1 §6%MONETARY_UNIT%",
+    "givemoney-gave-money": "§e◊ §aChuyển §e%1 §6%MONETARY_UNIT% §atới §d%2",
+    "seemoney-seemoney": "§e◊ §aNgười chơi §d%1's §acó số dư§7: §e%2 §6Fxu",
+    "setmoney-setmoney": "§e◊ §aNgười chơi §d%1's §asố tiền được chỉnh còn §e%2 §6%MONETARY_UNIT%",
+    "setmoney-set": "§e◊ §aTiền của bạn được chỉnh còn §e%1 §6%MONETARY_UNIT%",
+    "setmoney-failed": "§e◊ §cThất bại",
+    "setmoney-invalid-number": "§e◊ §cLỗi số",
+    "mymoney-mymoney": "§e◊ §eTài khoản của bạn§f: §e%1 §6%MONETARY_UNIT%",
+    "mystatus-show": "..."
+}

@@ -1,0 +1,1212 @@
+---
+-39:153:1120:world:
+  x: -39
+  "y": 153
+  z: 1120
+  level: world
+  price: 300
+  item: 264
+  itemName: Diamond
+  meta: 0
+  amount: 3
+-42:153:1120:world:
+  x: -42
+  "y": 153
+  z: 1120
+  level: world
+  price: 80
+  item: 388
+  itemName: Emerald
+  meta: 0
+  amount: 1
+-40:153:1120:world:
+  x: -40
+  "y": 153
+  z: 1120
+  level: world
+  price: 50
+  item: 351
+  itemName: Lapis Lazuli
+  meta: 4
+  amount: 32
+-37:153:1120:world:
+  x: -37
+  "y": 153
+  z: 1120
+  level: world
+  price: 40
+  item: 265
+  itemName: Iron Ingot
+  meta: 0
+  amount: 10
+-41:153:1120:world:
+  x: -41
+  "y": 153
+  z: 1120
+  level: world
+  price: 50
+  item: 331
+  itemName: Redstone
+  meta: 0
+  amount: 32
+-38:153:1120:world:
+  x: -38
+  "y": 153
+  z: 1120
+  level: world
+  price: 70
+  item: 266
+  itemName: Gold Ingot
+  meta: 0
+  amount: 10
+-36:153:1120:world:
+  x: -36
+  "y": 153
+  z: 1120
+  level: world
+  price: 30
+  item: 263
+  itemName: Coal
+  meta: 0
+  amount: 10
+-44:153:1120:world:
+  x: -44
+  "y": 153
+  z: 1120
+  level: world
+  price: 50
+  item: 17
+  itemName: Oak Wood
+  meta: 0
+  amount: 25
+-45:153:1120:world:
+  x: -45
+  "y": 153
+  z: 1120
+  level: world
+  price: 50
+  item: 17
+  itemName: Spruce Wood
+  meta: 1
+  amount: 25
+-46:153:1120:world:
+  x: -46
+  "y": 153
+  z: 1120
+  level: world
+  price: 50
+  item: 17
+  itemName: Birch Wood
+  meta: 2
+  amount: 25
+-47:153:1120:world:
+  x: -47
+  "y": 153
+  z: 1120
+  level: world
+  price: 50
+  item: 17
+  itemName: Jungle Wood
+  meta: 3
+  amount: 25
+-48:153:1120:world:
+  x: -48
+  "y": 153
+  z: 1120
+  level: world
+  price: 50
+  item: 162
+  itemName: Acacia Wood
+  meta: 0
+  amount: 25
+-49:153:1120:world:
+  x: -49
+  "y": 153
+  z: 1120
+  level: world
+  price: 50
+  item: 162
+  itemName: Dark Oak Wood
+  meta: 1
+  amount: 25
+-50:153:1120:world:
+  x: -50
+  "y": 153
+  z: 1120
+  level: world
+  price: 40
+  item: 5
+  itemName: Oak Wood Planks
+  meta: 0
+  amount: 64
+-54:153:1123:world:
+  x: -54
+  "y": 153
+  z: 1123
+  level: world
+  price: 40
+  item: 5
+  itemName: Spruce Wood Planks
+  meta: 1
+  amount: 64
+-54:153:1124:world:
+  x: -54
+  "y": 153
+  z: 1124
+  level: world
+  price: 40
+  item: 5
+  itemName: Birch Wood Planks
+  meta: 2
+  amount: 64
+-54:153:1125:world:
+  x: -54
+  "y": 153
+  z: 1125
+  level: world
+  price: 40
+  item: 5
+  itemName: Jungle Wood Planks
+  meta: 3
+  amount: 64
+-54:153:1126:world:
+  x: -54
+  "y": 153
+  z: 1126
+  level: world
+  price: 40
+  item: 5
+  itemName: Acacia Wood Planks
+  meta: 4
+  amount: 64
+-54:153:1127:world:
+  x: -54
+  "y": 153
+  z: 1127
+  level: world
+  price: 40
+  item: 5
+  itemName: Dark Oak Wood Planks
+  meta: 5
+  amount: 64
+-54:153:1128:world:
+  x: -54
+  "y": 153
+  z: 1128
+  level: world
+  price: 50
+  item: 3
+  itemName: Dirt
+  meta: 0
+  amount: 32
+-54:153:1129:world:
+  x: -54
+  "y": 153
+  z: 1129
+  level: world
+  price: 100
+  item: 110
+  itemName: Mycelium
+  meta: 0
+  amount: 32
+-54:153:1130:world:
+  x: -54
+  "y": 153
+  z: 1130
+  level: world
+  price: 100
+  item: 243
+  itemName: Podzol
+  meta: 0
+  amount: 32
+-56:153:1130:world:
+  x: -56
+  "y": 153
+  z: 1130
+  level: world
+  price: 50
+  item: 2
+  itemName: Grass
+  meta: 0
+  amount: 32
+-56:153:1129:world:
+  x: -56
+  "y": 153
+  z: 1129
+  level: world
+  price: 50
+  item: 12
+  itemName: Red Sand
+  meta: 1
+  amount: 32
+-56:153:1128:world:
+  x: -56
+  "y": 153
+  z: 1128
+  level: world
+  price: 50
+  item: 12
+  itemName: Sand
+  meta: 0
+  amount: 30
+-56:153:1124:world:
+  x: -56
+  "y": 153
+  z: 1124
+  level: world
+  price: 70
+  item: 24
+  itemName: Sandstone
+  meta: 0
+  amount: 32
+-56:153:1123:world:
+  x: -56
+  "y": 153
+  z: 1123
+  level: world
+  price: 70
+  item: 24
+  itemName: Chiseled Sandstone
+  meta: 1
+  amount: 32
+-56:153:1122:world:
+  x: -56
+  "y": 153
+  z: 1122
+  level: world
+  price: 70
+  item: 24
+  itemName: Smooth Sandstone
+  meta: 2
+  amount: 32
+-64:153:1113:world:
+  x: -64
+  "y": 153
+  z: 1113
+  level: world
+  price: 50
+  item: 81
+  itemName: Cactus
+  meta: 0
+  amount: 5
+-56:153:1127:world:
+  x: -56
+  "y": 153
+  z: 1127
+  level: world
+  price: 70
+  item: 179
+  itemName: Red Sandstone
+  meta: 0
+  amount: 32
+-56:153:1126:world:
+  x: -56
+  "y": 153
+  z: 1126
+  level: world
+  price: 70
+  item: 179
+  itemName: Chiseled Red Sandstone
+  meta: 1
+  amount: 32
+-56:153:1125:world:
+  x: -56
+  "y": 153
+  z: 1125
+  level: world
+  price: 70
+  item: 179
+  itemName: Smooth Red Sandstone
+  meta: 2
+  amount: 32
+-56:153:1121:world:
+  x: -56
+  "y": 153
+  z: 1121
+  level: world
+  price: 64
+  item: 87
+  itemName: Netherrack
+  meta: 0
+  amount: 32
+-56:153:1120:world:
+  x: -56
+  "y": 153
+  z: 1120
+  level: world
+  price: 64
+  item: 88
+  itemName: Soul Sand
+  meta: 0
+  amount: 32
+-56:155:1121:world:
+  x: -56
+  "y": 155
+  z: 1121
+  level: world
+  price: 40
+  item: 87
+  itemName: Netherrack
+  meta: 0
+  amount: 32
+-56:155:1120:world:
+  x: -56
+  "y": 155
+  z: 1120
+  level: world
+  price: 40
+  item: 88
+  itemName: Soul Sand
+  meta: 0
+  amount: 32
+-59:153:1114:world:
+  x: -59
+  "y": 153
+  z: 1114
+  level: world
+  price: 50
+  item: 174
+  itemName: Packed Ice
+  meta: 0
+  amount: 10
+-60:153:1114:world:
+  x: -60
+  "y": 153
+  z: 1114
+  level: world
+  price: 50
+  item: 79
+  itemName: Ice
+  meta: 0
+  amount: 10
+-56:153:1119:world:
+  x: -56
+  "y": 153
+  z: 1119
+  level: world
+  price: 50
+  item: 121
+  itemName: End Stone
+  meta: 0
+  amount: 10
+-56:153:1118:world:
+  x: -56
+  "y": 153
+  z: 1118
+  level: world
+  price: 70
+  item: 206
+  itemName: End Stone Bricks
+  meta: 0
+  amount: 10
+-56:153:1117:world:
+  x: -56
+  "y": 153
+  z: 1117
+  level: world
+  price: 70
+  item: 80
+  itemName: Snow Block
+  meta: 0
+  amount: 32
+-61:153:1114:world:
+  x: -61
+  "y": 153
+  z: 1114
+  level: world
+  price: 30
+  item: 49
+  itemName: Obsidian
+  meta: 0
+  amount: 1
+-64:153:1114:world:
+  x: -64
+  "y": 153
+  z: 1114
+  level: world
+  price: 70
+  item: 201
+  itemName: Purpur Block
+  meta: 0
+  amount: 20
+-63:153:1114:world:
+  x: -63
+  "y": 153
+  z: 1114
+  level: world
+  price: 70
+  item: 201
+  itemName: Purpur Block
+  meta: 0
+  amount: 20
+-62:153:1114:world:
+  x: -62
+  "y": 153
+  z: 1114
+  level: world
+  price: 70
+  item: 153
+  itemName: Nether Quartz Ore
+  meta: 0
+  amount: 64
+-60:153:1112:world:
+  x: -60
+  "y": 153
+  z: 1112
+  level: world
+  price: 70
+  item: 155
+  itemName: Quartz Block
+  meta: 0
+  amount: 16
+-61:153:1112:world:
+  x: -61
+  "y": 153
+  z: 1112
+  level: world
+  price: 70
+  item: 155
+  itemName: Chiseled Quartz Block
+  meta: 1
+  amount: 16
+-59:153:1112:world:
+  x: -59
+  "y": 153
+  z: 1112
+  level: world
+  price: 70
+  item: 155
+  itemName: Quartz Pillar
+  meta: 2
+  amount: 16
+-62:153:1112:world:
+  x: -62
+  "y": 153
+  z: 1112
+  level: world
+  price: 50
+  item: 168
+  itemName: Prismarine
+  meta: 0
+  amount: 16
+-64:153:1112:world:
+  x: -64
+  "y": 153
+  z: 1112
+  level: world
+  price: 70
+  item: 168
+  itemName: Dark Prismarine
+  meta: 1
+  amount: 16
+-63:153:1112:world:
+  x: -63
+  "y": 153
+  z: 1112
+  level: world
+  price: 60
+  item: 168
+  itemName: Prismarine Bricks
+  meta: 2
+  amount: 16
+-54:153:1108:world:
+  x: -54
+  "y": 153
+  z: 1108
+  level: world
+  price: 32
+  item: 4
+  itemName: Cobblestone
+  meta: 0
+  amount: 32
+-54:155:1108:world:
+  x: -54
+  "y": 155
+  z: 1108
+  level: world
+  price: 30
+  item: 4
+  itemName: Cobblestone
+  meta: 0
+  amount: 64
+-54:153:1113:world:
+  x: -54
+  "y": 153
+  z: 1113
+  level: world
+  price: 50
+  item: 48
+  itemName: Moss Stone
+  meta: 0
+  amount: 30
+-54:153:1109:world:
+  x: -54
+  "y": 153
+  z: 1109
+  level: world
+  price: 50
+  item: 98
+  itemName: Stone Bricks
+  meta: 0
+  amount: 32
+-54:153:1110:world:
+  x: -54
+  "y": 153
+  z: 1110
+  level: world
+  price: 50
+  item: 98
+  itemName: Mossy Stone Bricks
+  meta: 1
+  amount: 32
+-54:153:1111:world:
+  x: -54
+  "y": 153
+  z: 1111
+  level: world
+  price: 50
+  item: 98
+  itemName: Cracked Stone Bricks
+  meta: 2
+  amount: 32
+-54:153:1112:world:
+  x: -54
+  "y": 153
+  z: 1112
+  level: world
+  price: 50
+  item: 98
+  itemName: Chiseled Stone Bricks
+  meta: 3
+  amount: 32
+-54:153:1114:world:
+  x: -54
+  "y": 153
+  z: 1114
+  level: world
+  price: 50
+  item: 45
+  itemName: Bricks
+  meta: 0
+  amount: 16
+-54:153:1115:world:
+  x: -54
+  "y": 153
+  z: 1115
+  level: world
+  price: 50
+  item: 112
+  itemName: Nether Bricks
+  meta: 0
+  amount: 16
+-49:153:1118:world:
+  x: -49
+  "y": 153
+  z: 1118
+  level: world
+  price: 50
+  item: 86
+  itemName: Pumpkin
+  meta: 0
+  amount: 10
+-48:153:1118:world:
+  x: -48
+  "y": 153
+  z: 1118
+  level: world
+  price: 50
+  item: 103
+  itemName: Melon Block
+  meta: 0
+  amount: 10
+-50:153:1118:world:
+  x: -50
+  "y": 153
+  z: 1118
+  level: world
+  price: 50
+  item: 170
+  itemName: Hay Bale
+  meta: 0
+  amount: 16
+-72:152:1123:world:
+  x: -72
+  "y": 152
+  z: 1123
+  level: world
+  price: 60
+  item: 237
+  itemName: White Concrete Powder
+  meta: 0
+  amount: 20
+-68:152:1091:world:
+  x: -68
+  "y": 152
+  z: 1091
+  level: world
+  price: 200
+  item: 35
+  itemName: White Wool
+  meta: 0
+  amount: 21
+-72:152:1122:world:
+  x: -72
+  "y": 152
+  z: 1122
+  level: world
+  price: 60
+  item: 237
+  itemName: Silver Concrete Powder
+  meta: 8
+  amount: 20
+-67:152:1091:world:
+  x: -67
+  "y": 152
+  z: 1091
+  level: world
+  price: 200
+  item: 35
+  itemName: Light Gray Wool
+  meta: 8
+  amount: 21
+-72:152:1121:world:
+  x: -72
+  "y": 152
+  z: 1121
+  level: world
+  price: 60
+  item: 237
+  itemName: Gray Concrete Powder
+  meta: 7
+  amount: 20
+-66:152:1091:world:
+  x: -66
+  "y": 152
+  z: 1091
+  level: world
+  price: 200
+  item: 35
+  itemName: Gray Wool
+  meta: 7
+  amount: 21
+-72:152:1120:world:
+  x: -72
+  "y": 152
+  z: 1120
+  level: world
+  price: 60
+  item: 237
+  itemName: Black Concrete Powder
+  meta: 15
+  amount: 20
+-72:152:1119:world:
+  x: -72
+  "y": 152
+  z: 1119
+  level: world
+  price: 60
+  item: 237
+  itemName: Brown Concrete Powder
+  meta: 12
+  amount: 20
+-72:152:1118:world:
+  x: -72
+  "y": 152
+  z: 1118
+  level: world
+  price: 60
+  item: 237
+  itemName: Red Concrete Powder
+  meta: 14
+  amount: 20
+-65:152:1091:world:
+  x: -65
+  "y": 152
+  z: 1091
+  level: world
+  price: 200
+  item: 35
+  itemName: Black Wool
+  meta: 15
+  amount: 21
+-64:152:1091:world:
+  x: -64
+  "y": 152
+  z: 1091
+  level: world
+  price: 200
+  item: 35
+  itemName: Brown Wool
+  meta: 12
+  amount: 21
+-63:152:1091:world:
+  x: -63
+  "y": 152
+  z: 1091
+  level: world
+  price: 200
+  item: 35
+  itemName: Red Wool
+  meta: 14
+  amount: 21
+-72:152:1117:world:
+  x: -72
+  "y": 152
+  z: 1117
+  level: world
+  price: 60
+  item: 237
+  itemName: Orange Concrete Powder
+  meta: 1
+  amount: 20
+-62:152:1091:world:
+  x: -62
+  "y": 152
+  z: 1091
+  level: world
+  price: 200
+  item: 35
+  itemName: Orange Wool
+  meta: 1
+  amount: 21
+-72:152:1116:world:
+  x: -72
+  "y": 152
+  z: 1116
+  level: world
+  price: 60
+  item: 237
+  itemName: Yellow Concrete Powder
+  meta: 4
+  amount: 20
+-61:152:1091:world:
+  x: -61
+  "y": 152
+  z: 1091
+  level: world
+  price: 200
+  item: 35
+  itemName: Yellow Wool
+  meta: 4
+  amount: 21
+-62:152:1094:world:
+  x: -62
+  "y": 152
+  z: 1094
+  level: world
+  price: 200
+  item: 35
+  itemName: Pink Wool
+  meta: 6
+  amount: 21
+-72:152:1115:world:
+  x: -72
+  "y": 152
+  z: 1115
+  level: world
+  price: 60
+  item: 237
+  itemName: Lime Concrete Powder
+  meta: 5
+  amount: 20
+-61:152:1094:world:
+  x: -61
+  "y": 152
+  z: 1094
+  level: world
+  price: 200
+  item: 35
+  itemName: Magenta Wool
+  meta: 2
+  amount: 21
+-60:152:1094:world:
+  x: -60
+  "y": 152
+  z: 1094
+  level: world
+  price: 200
+  item: 35
+  itemName: Purple Wool
+  meta: 10
+  amount: 21
+-59:152:1094:world:
+  x: -59
+  "y": 152
+  z: 1094
+  level: world
+  price: 200
+  item: 35
+  itemName: Blue Wool
+  meta: 11
+  amount: 21
+-58:152:1094:world:
+  x: -58
+  "y": 152
+  z: 1094
+  level: world
+  price: 200
+  item: 35
+  itemName: Light Blue Wool
+  meta: 3
+  amount: 21
+-72:152:1114:world:
+  x: -72
+  "y": 152
+  z: 1114
+  level: world
+  price: 60
+  item: 237
+  itemName: Green Concrete Powder
+  meta: 13
+  amount: 20
+-58:152:1091:world:
+  x: -58
+  "y": 152
+  z: 1091
+  level: world
+  price: 200
+  item: 35
+  itemName: Cyan Wool
+  meta: 9
+  amount: 21
+-72:152:1113:world:
+  x: -72
+  "y": 152
+  z: 1113
+  level: world
+  price: 60
+  item: 237
+  itemName: Green Concrete Powder
+  meta: 13
+  amount: 20
+-59:152:1091:world:
+  x: -59
+  "y": 152
+  z: 1091
+  level: world
+  price: 200
+  item: 35
+  itemName: Green Wool
+  meta: 13
+  amount: 21
+-60:152:1091:world:
+  x: -60
+  "y": 152
+  z: 1091
+  level: world
+  price: 200
+  item: 35
+  itemName: Lime Wool
+  meta: 5
+  amount: 21
+-72:152:1112:world:
+  x: -72
+  "y": 152
+  z: 1112
+  level: world
+  price: 60
+  item: 237
+  itemName: Light Blue Concrete Powder
+  meta: 3
+  amount: 20
+-63:152:1094:world:
+  x: -63
+  "y": 152
+  z: 1094
+  level: world
+  price: 240
+  item: 236
+  itemName: White Concrete
+  meta: 0
+  amount: 24
+-72:152:1111:world:
+  x: -72
+  "y": 152
+  z: 1111
+  level: world
+  price: 60
+  item: 237
+  itemName: Blue Concrete Powder
+  meta: 11
+  amount: 20
+-64:152:1094:world:
+  x: -64
+  "y": 152
+  z: 1094
+  level: world
+  price: 240
+  item: 236
+  itemName: Silver Concrete
+  meta: 8
+  amount: 24
+-72:152:1110:world:
+  x: -72
+  "y": 152
+  z: 1110
+  level: world
+  price: 60
+  item: 237
+  itemName: Purple Concrete Powder
+  meta: 10
+  amount: 20
+-65:152:1094:world:
+  x: -65
+  "y": 152
+  z: 1094
+  level: world
+  price: 240
+  item: 236
+  itemName: Gray Concrete
+  meta: 7
+  amount: 24
+-67:152:1096:world:
+  x: -67
+  "y": 152
+  z: 1096
+  level: world
+  price: 240
+  item: 236
+  itemName: Black Concrete
+  meta: 15
+  amount: 24
+-72:152:1108:world:
+  x: -72
+  "y": 152
+  z: 1108
+  level: world
+  price: 60
+  item: 237
+  itemName: Pink Concrete Powder
+  meta: 6
+  amount: 20
+-67:152:1097:world:
+  x: -67
+  "y": 152
+  z: 1097
+  level: world
+  price: 240
+  item: 236
+  itemName: Brown Concrete
+  meta: 12
+  amount: 24
+-72:152:1109:world:
+  x: -72
+  "y": 152
+  z: 1109
+  level: world
+  price: 60
+  item: 237
+  itemName: Magenta Concrete Powder
+  meta: 2
+  amount: 20
+-67:152:1098:world:
+  x: -67
+  "y": 152
+  z: 1098
+  level: world
+  price: 240
+  item: 236
+  itemName: Red Concrete
+  meta: 14
+  amount: 24
+-65:152:1100:world:
+  x: -65
+  "y": 152
+  z: 1100
+  level: world
+  price: 240
+  item: 236
+  itemName: Orange Concrete
+  meta: 1
+  amount: 24
+-64:152:1100:world:
+  x: -64
+  "y": 152
+  z: 1100
+  level: world
+  price: 240
+  item: 236
+  itemName: Yellow Concrete
+  meta: 4
+  amount: 24
+-63:152:1100:world:
+  x: -63
+  "y": 152
+  z: 1100
+  level: world
+  price: 240
+  item: 236
+  itemName: Lime Concrete
+  meta: 5
+  amount: 24
+-62:152:1100:world:
+  x: -62
+  "y": 152
+  z: 1100
+  level: world
+  price: 240
+  item: 236
+  itemName: Green Concrete
+  meta: 13
+  amount: 24
+-61:152:1100:world:
+  x: -61
+  "y": 152
+  z: 1100
+  level: world
+  price: 240
+  item: 236
+  itemName: Cyan Concrete
+  meta: 9
+  amount: 24
+-70:152:1103:world:
+  x: -70
+  "y": 152
+  z: 1103
+  level: world
+  price: 100
+  item: 364
+  itemName: Steak
+  meta: 0
+  amount: 10
+-60:152:1100:world:
+  x: -60
+  "y": 152
+  z: 1100
+  level: world
+  price: 240
+  item: 236
+  itemName: Light Blue Concrete
+  meta: 3
+  amount: 24
+-59:152:1100:world:
+  x: -59
+  "y": 152
+  z: 1100
+  level: world
+  price: 240
+  item: 236
+  itemName: Blue Concrete
+  meta: 11
+  amount: 24
+-70:152:1102:world:
+  x: -70
+  "y": 152
+  z: 1102
+  level: world
+  price: 50
+  item: 6
+  itemName: Oak Sapling
+  meta: 0
+  amount: 10
+-58:152:1100:world:
+  x: -58
+  "y": 152
+  z: 1100
+  level: world
+  price: 240
+  item: 236
+  itemName: Purple Concrete
+  meta: 10
+  amount: 24
+-56:152:1098:world:
+  x: -56
+  "y": 152
+  z: 1098
+  level: world
+  price: 240
+  item: 236
+  itemName: Magenta Concrete
+  meta: 2
+  amount: 24
+-70:152:1097:world:
+  x: -70
+  "y": 152
+  z: 1097
+  level: world
+  price: 50
+  item: 322
+  itemName: Golden Apple
+  meta: 0
+  amount: 1
+-56:152:1097:world:
+  x: -56
+  "y": 152
+  z: 1097
+  level: world
+  price: 240
+  item: 236
+  itemName: Pink Concrete
+  meta: 6
+  amount: 24
+-70:152:1094:world:
+  x: -70
+  "y": 152
+  z: 1094
+  level: world
+  price: 700
+  item: 466
+  itemName: Enchanted Golden Apple
+  meta: 0
+  amount: 1
+-70:152:1101:world:
+  x: -70
+  "y": 152
+  z: 1101
+  level: world
+  price: 100
+  item: 295
+  itemName: Wheat Seeds
+  meta: 0
+  amount: 20
+-70:152:1100:world:
+  x: -70
+  "y": 152
+  z: 1100
+  level: world
+  price: 100
+  item: 361
+  itemName: Pumpkin Seeds
+  meta: 0
+  amount: 20
+-70:152:1099:world:
+  x: -70
+  "y": 152
+  z: 1099
+  level: world
+  price: 100
+  item: 362
+  itemName: Melon Seeds
+  meta: 0
+  amount: 20
+-70:152:1098:world:
+  x: -70
+  "y": 152
+  z: 1098
+  level: world
+  price: 100
+  item: 458
+  itemName: Beetroot Seeds
+  meta: 0
+  amount: 20
+-70:152:1096:world:
+  x: -70
+  "y": 152
+  z: 1096
+  level: world
+  price: 50
+  item: 368
+  itemName: Ender Pearl
+  meta: 0
+  amount: 5
+-70:152:1095:world:
+  x: -70
+  "y": 152
+  z: 1095
+  level: world
+  price: 200
+  item: 351
+  itemName: Bone Meal
+  meta: 15
+  amount: 22
+...

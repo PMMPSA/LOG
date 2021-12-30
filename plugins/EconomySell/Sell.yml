@@ -1,0 +1,572 @@
+---
+-39:155:1120:world:
+  x: -39
+  "y": 155
+  z: 1120
+  level: world
+  cost: 240
+  item: 264
+  itemName: Diamond
+  meta: 0
+  amount: 3
+-37:155:1120:world:
+  x: -37
+  "y": 155
+  z: 1120
+  level: world
+  cost: 35
+  item: 265
+  itemName: Iron Ingot
+  meta: 0
+  amount: 10
+-38:155:1120:world:
+  x: -38
+  "y": 155
+  z: 1120
+  level: world
+  cost: 55
+  item: 266
+  itemName: Gold Ingot
+  meta: 0
+  amount: 10
+-42:155:1120:world:
+  x: -42
+  "y": 155
+  z: 1120
+  level: world
+  cost: 50
+  item: 388
+  itemName: Emerald
+  meta: 0
+  amount: 1
+-36:155:1120:world:
+  x: -36
+  "y": 155
+  z: 1120
+  level: world
+  cost: 15
+  item: 263
+  itemName: Coal
+  meta: 0
+  amount: 10
+-41:155:1120:world:
+  x: -41
+  "y": 155
+  z: 1120
+  level: world
+  cost: 50
+  item: 331
+  itemName: Redstone
+  meta: 0
+  amount: 64
+-40:155:1120:world:
+  x: -40
+  "y": 155
+  z: 1120
+  level: world
+  cost: 50
+  item: 351
+  itemName: Lapis Lazuli
+  meta: 4
+  amount: 64
+-44:155:1120:world:
+  x: -44
+  "y": 155
+  z: 1120
+  level: world
+  cost: 30
+  item: 17
+  itemName: Oak Wood
+  meta: 0
+  amount: 16
+-46:155:1120:world:
+  x: -46
+  "y": 155
+  z: 1120
+  level: world
+  cost: 30
+  item: 17
+  itemName: Birch Wood
+  meta: 2
+  amount: 16
+-45:155:1120:world:
+  x: -45
+  "y": 155
+  z: 1120
+  level: world
+  cost: 30
+  item: 17
+  itemName: Spruce Wood
+  meta: 1
+  amount: 16
+-47:155:1120:world:
+  x: -47
+  "y": 155
+  z: 1120
+  level: world
+  cost: 30
+  item: 17
+  itemName: Jungle Wood
+  meta: 3
+  amount: 16
+-48:155:1120:world:
+  x: -48
+  "y": 155
+  z: 1120
+  level: world
+  cost: 30
+  item: 162
+  itemName: Acacia Wood
+  meta: 0
+  amount: 16
+-49:155:1120:world:
+  x: -49
+  "y": 155
+  z: 1120
+  level: world
+  cost: 30
+  item: 162
+  itemName: Dark Oak Wood
+  meta: 1
+  amount: 16
+-50:155:1120:world:
+  x: -50
+  "y": 155
+  z: 1120
+  level: world
+  cost: 30
+  item: 5
+  itemName: Oak Wood Planks
+  meta: 0
+  amount: 64
+-54:155:1123:world:
+  x: -54
+  "y": 155
+  z: 1123
+  level: world
+  cost: 30
+  item: 5
+  itemName: Spruce Wood Planks
+  meta: 1
+  amount: 64
+-54:155:1124:world:
+  x: -54
+  "y": 155
+  z: 1124
+  level: world
+  cost: 30
+  item: 5
+  itemName: Birch Wood Planks
+  meta: 2
+  amount: 64
+-54:155:1125:world:
+  x: -54
+  "y": 155
+  z: 1125
+  level: world
+  cost: 30
+  item: 5
+  itemName: Jungle Wood Planks
+  meta: 3
+  amount: 64
+-54:155:1126:world:
+  x: -54
+  "y": 155
+  z: 1126
+  level: world
+  cost: 30
+  item: 5
+  itemName: Acacia Wood Planks
+  meta: 4
+  amount: 64
+-54:155:1127:world:
+  x: -54
+  "y": 155
+  z: 1127
+  level: world
+  cost: 30
+  item: 5
+  itemName: Dark Oak Wood Planks
+  meta: 5
+  amount: 64
+-54:155:1128:world:
+  x: -54
+  "y": 155
+  z: 1128
+  level: world
+  cost: 30
+  item: 3
+  itemName: Dirt
+  meta: 0
+  amount: 32
+-54:155:1129:world:
+  x: -54
+  "y": 155
+  z: 1129
+  level: world
+  cost: 50
+  item: 110
+  itemName: Mycelium
+  meta: 0
+  amount: 32
+-56:155:1130:world:
+  x: -56
+  "y": 155
+  z: 1130
+  level: world
+  cost: 30
+  item: 2
+  itemName: Grass
+  meta: 0
+  amount: 32
+-56:155:1129:world:
+  x: -56
+  "y": 155
+  z: 1129
+  level: world
+  cost: 30
+  item: 12
+  itemName: Red Sand
+  meta: 1
+  amount: 32
+-56:155:1128:world:
+  x: -56
+  "y": 155
+  z: 1128
+  level: world
+  cost: 30
+  item: 12
+  itemName: Sand
+  meta: 0
+  amount: 32
+-64:155:1113:world:
+  x: -64
+  "y": 155
+  z: 1113
+  level: world
+  cost: 50
+  item: 81
+  itemName: Cactus
+  meta: 0
+  amount: 32
+-54:155:1130:world:
+  x: -54
+  "y": 155
+  z: 1130
+  level: world
+  cost: 50
+  item: 243
+  itemName: Podzol
+  meta: 0
+  amount: 32
+-56:155:1124:world:
+  x: -56
+  "y": 155
+  z: 1124
+  level: world
+  cost: 50
+  item: 24
+  itemName: Sandstone
+  meta: 0
+  amount: 32
+-56:155:1123:world:
+  x: -56
+  "y": 155
+  z: 1123
+  level: world
+  cost: 50
+  item: 24
+  itemName: Chiseled Sandstone
+  meta: 1
+  amount: 32
+-56:155:1122:world:
+  x: -56
+  "y": 155
+  z: 1122
+  level: world
+  cost: 50
+  item: 24
+  itemName: Smooth Sandstone
+  meta: 2
+  amount: 32
+-56:155:1127:world:
+  x: -56
+  "y": 155
+  z: 1127
+  level: world
+  cost: 50
+  item: 179
+  itemName: Red Sandstone
+  meta: 0
+  amount: 32
+-56:155:1126:world:
+  x: -56
+  "y": 155
+  z: 1126
+  level: world
+  cost: 50
+  item: 179
+  itemName: Chiseled Red Sandstone
+  meta: 1
+  amount: 32
+-56:155:1125:world:
+  x: -56
+  "y": 155
+  z: 1125
+  level: world
+  cost: 50
+  item: 179
+  itemName: Smooth Red Sandstone
+  meta: 2
+  amount: 32
+-56:155:1119:world:
+  x: -56
+  "y": 155
+  z: 1119
+  level: world
+  cost: 30
+  item: 121
+  itemName: End Stone
+  meta: 0
+  amount: 10
+-56:155:1118:world:
+  x: -56
+  "y": 155
+  z: 1118
+  level: world
+  cost: 50
+  item: 206
+  itemName: End Stone Bricks
+  meta: 0
+  amount: 10
+-56:155:1117:world:
+  x: -56
+  "y": 155
+  z: 1117
+  level: world
+  cost: 30
+  item: 80
+  itemName: Snow Block
+  meta: 0
+  amount: 32
+-62:155:1112:world:
+  x: -62
+  "y": 155
+  z: 1112
+  level: world
+  cost: 20
+  item: 168
+  itemName: Prismarine
+  meta: 0
+  amount: 16
+-64:155:1112:world:
+  x: -64
+  "y": 155
+  z: 1112
+  level: world
+  cost: 40
+  item: 168
+  itemName: Dark Prismarine
+  meta: 1
+  amount: 16
+-63:155:1112:world:
+  x: -63
+  "y": 155
+  z: 1112
+  level: world
+  cost: 30
+  item: 168
+  itemName: Prismarine Bricks
+  meta: 2
+  amount: 16
+-60:155:1112:world:
+  x: -60
+  "y": 155
+  z: 1112
+  level: world
+  cost: 40
+  item: 155
+  itemName: Quartz Block
+  meta: 0
+  amount: 16
+-59:155:1112:world:
+  x: -59
+  "y": 155
+  z: 1112
+  level: world
+  cost: 50
+  item: 155
+  itemName: Quartz Pillar
+  meta: 2
+  amount: 16
+-61:155:1112:world:
+  x: -61
+  "y": 155
+  z: 1112
+  level: world
+  cost: 40
+  item: 155
+  itemName: Chiseled Quartz Block
+  meta: 1
+  amount: 16
+-54:155:1113:world:
+  x: -54
+  "y": 155
+  z: 1113
+  level: world
+  cost: 30
+  item: 48
+  itemName: Moss Stone
+  meta: 0
+  amount: 32
+-54:155:1109:world:
+  x: -54
+  "y": 155
+  z: 1109
+  level: world
+  cost: 30
+  item: 98
+  itemName: Stone Bricks
+  meta: 0
+  amount: 32
+-54:155:1110:world:
+  x: -54
+  "y": 155
+  z: 1110
+  level: world
+  cost: 30
+  item: 98
+  itemName: Mossy Stone Bricks
+  meta: 1
+  amount: 32
+-54:155:1111:world:
+  x: -54
+  "y": 155
+  z: 1111
+  level: world
+  cost: 30
+  item: 98
+  itemName: Cracked Stone Bricks
+  meta: 2
+  amount: 32
+-54:155:1112:world:
+  x: -54
+  "y": 155
+  z: 1112
+  level: world
+  cost: 30
+  item: 98
+  itemName: Chiseled Stone Bricks
+  meta: 3
+  amount: 32
+-54:155:1114:world:
+  x: -54
+  "y": 155
+  z: 1114
+  level: world
+  cost: 25
+  item: 45
+  itemName: Bricks
+  meta: 0
+  amount: 16
+-54:155:1115:world:
+  x: -54
+  "y": 155
+  z: 1115
+  level: world
+  cost: 30
+  item: 112
+  itemName: Nether Bricks
+  meta: 0
+  amount: 16
+-59:155:1114:world:
+  x: -59
+  "y": 155
+  z: 1114
+  level: world
+  cost: 30
+  item: 79
+  itemName: Ice
+  meta: 0
+  amount: 10
+-60:155:1114:world:
+  x: -60
+  "y": 155
+  z: 1114
+  level: world
+  cost: 30
+  item: 179
+  itemName: Red Sandstone
+  meta: 0
+  amount: 10
+-61:155:1114:world:
+  x: -61
+  "y": 155
+  z: 1114
+  level: world
+  cost: 10
+  item: 49
+  itemName: Obsidian
+  meta: 0
+  amount: 1
+-62:155:1114:world:
+  x: -62
+  "y": 155
+  z: 1114
+  level: world
+  cost: 50
+  item: 153
+  itemName: Nether Quartz Ore
+  meta: 0
+  amount: 64
+-64:155:1114:world:
+  x: -64
+  "y": 155
+  z: 1114
+  level: world
+  cost: 50
+  item: 201
+  itemName: Purpur Block
+  meta: 0
+  amount: 20
+-63:155:1114:world:
+  x: -63
+  "y": 155
+  z: 1114
+  level: world
+  cost: 50
+  item: 201
+  itemName: Purpur Pillar
+  meta: 2
+  amount: 20
+-48:155:1118:world:
+  x: -48
+  "y": 155
+  z: 1118
+  level: world
+  cost: 50
+  item: 103
+  itemName: Melon Block
+  meta: 0
+  amount: 24
+-49:155:1118:world:
+  x: -49
+  "y": 155
+  z: 1118
+  level: world
+  cost: 50
+  item: 86
+  itemName: Pumpkin
+  meta: 0
+  amount: 32
+-50:155:1118:world:
+  x: -50
+  "y": 155
+  z: 1118
+  level: world
+  cost: 64
+  item: 170
+  itemName: Hay Bale
+  meta: 0
+  amount: 32
+...

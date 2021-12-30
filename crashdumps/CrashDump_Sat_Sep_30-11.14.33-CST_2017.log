@@ -1,0 +1,68 @@
+GenisysPro Crash Dump Sat Sep 30 11:14:33 CST 2017
+
+Error: syntax error, unexpected '$item' (T_VARIABLE)
+File: /plugins/EasySurvival/src/Praxthisnovcht/EasySurvival/Main
+Line: 29
+Type: notice
+
+THIS CRASH WAS CAUSED BY A PLUGIN
+
+Code:
+[20]     $this->getLogger()->info(TextFormat::YELLOW . "Loading EasySurvival by Praxthisnovcht");
+[21]     }
+[22] 	public function onEnable() {
+[23] 		$this->getServer ()->getPluginManager ()->registerEvents ( $this, $this );
+[24] 		$this->getLogger()->info(TextFormat::YELLOW . "Enabling EasySurvival...");
+[25] 	}
+[26] 	public function onJoin(PlayerJoinEvent $event) {
+[27]      $player = $event->getPlayer (); # GetPlayer
+[28]      foreach ( $player->getInventory ()->getContents () as $item ) {
+[29]       if($item->getID () == Item::STONE_SWORD and $item->getID () == Item::STONE_SHOVEL and $item->getID () == Item::STONE_HOE and $item->getID () == Item::IRON_PICKAXE and Item::STONE_AXE and $item->getID () == Item::CHAIN_CHESTPLATE and Item::IRON_LEGGINGS $item->getID () == Item::LEATHER_BOOTS and Item::IRON_HELMET)
+[30]                 return;
+[31]         }		
+[32] 	public function playerRespawn(PlayerRespawnEvent $event) {
+[33]      $player = $event->getPlayer (); # GetPlayer
+[34]      foreach ( $player->getInventory ()->getContents () as $item ) {
+[35]       if($item->getID () == Item::STONE_SWORD and $item->getID () == Item::STONE_SHOVEL and $item->getID () == Item::STONE_HOE and $item->getID () == Item::IRON_PICKAXE and Item::STONE_AXE and $item->getID () == Item::CHAIN_CHESTPLATE and Item::IRON_LEGGINGS $item->getID () == Item::LEATHER_BOOTS and Item::IRON_HELMET)
+[36]                 return;
+[37]         }	
+[38]   public function onDisable() {
+[39]     $this->getLogger()->info(TextFormat::YELLOW . "Disabling EasySurvival");
+
+Backtrace:
+#0 (): spl_autoload_call(string Praxthisnovcht\EasySurvival\Main)
+#1 /src/pocketmine/plugin/FolderPluginLoader(76): class_exists(string Praxthisnovcht\EasySurvival\Main, boolean 1)
+#2 /src/pocketmine/plugin/PluginManager(159): pocketmine\plugin\FolderPluginLoader->loadPlugin(string /storage/emulated/0/PocketMine/plugins/EasySurvival)
+#3 /src/pocketmine/plugin/PluginManager(346): pocketmine\plugin\PluginManager->loadPlugin(string /storage/emulated/0/PocketMine/plugins/EasySurvival, array Array())
+#4 /src/pocketmine/Server(1897): pocketmine\plugin\PluginManager->loadPlugins(string /storage/emulated/0/PocketMine/plugins/)
+#5 /src/pocketmine/PocketMine(492): pocketmine\Server->__construct(BaseClassLoader object, pocketmine\utils\MainLogger object, string /storage/emulated/0/PocketMine/, string /storage/emulated/0/PocketMine/, string /storage/emulated/0/PocketMine/plugins/)
+
+GenisysPro version: 0000000000000000000000000000000000000000 [Protocol 113; API 3.0.1]
+uname -a: Linux localhost 3.10.49-perf-g88f85af-01152-gc2a3a9d #1 SMP PREEMPT Sat Apr 22 07:47:29 CST 2017 aarch64
+PHP version: 7.0.9
+Zend version: 3.0.0
+OS : Linux, android
+
+Server uptime: 7 seconds
+Number of loaded worlds: 0
+Players online: 0/20
+
+Loaded plugins:
+TapToDo 2.2.1 by Falk for API(s) 1.0.0
+KillChat 1.0.2.MOD by Array for API(s) 1.9.0, 2.0.0
+iProtector 3.1b by LDX for API(s) 1.9.0, 2.0.0
+NoFrameDrop 1 by  for API(s) 3.0.0, 3.0.1, 3.0.0-ALPHA1, 3.0.0-ALPHA2, 3.0.0-ALPHA3, 3.0.0-ALPHA3, 3.0.0-ALPHA4, 3.0.0-ALPHA5, 3.0.0-ALPHA6
+PocketGuard 2.1.1 by MinecrafterJPN for API(s) 1.10.0
+ClearYourInv 1.0.0 by Martin77Epic for API(s) 1.0.0, 2.0.0, 1.15.0
+AdminFun 1.0.0 by hoyinm14mc for API(s) 1.12.0, 1.13.0, 2.0.0
+EasierTime 1.2 by Ad5001 for API(s) 2.0.0
+InventorySize 1 by MaxFreeze for API(s) 2.0.0
+NetherChests 1.1.1 by aliuly for API(s) 1.12.0
+Titler 0.1.0 by Niekert for API(s) 3.0.0, 3.0.0-ALPHA5, 3.0.0-ALPHA6, 3.0.0-ALPHA7, 3.0.1
+Broadcaster 1.16 by EvolSoft for API(s) 1.12.0
+CalculatorPE 1.0.0 by Vaivez66 for API(s) 1.12.0
+SignModifier 1.0.0 by wolfdale for API(s) 1.3.1
+MisteryBox 1 by ISAAC300, ProjectTeamPHP for API(s) 2.0.0
+SimpleAuth 1.8.1 by PocketMine Team, shoghicp, awzaw for API(s) 2.0.0, 3.0.0-ALPHA1, 3.0.0-ALPHA2, 3.0.0-ALPHA3, 3.0.0-ALPHA4, 3.0.0-ALPHA5
+EconomyAPI 2.0.9 by onebone for API(s) 2.0.0
+PurePerms 1.3.7 by 64FF00 & ProjectInfinity for API(s) 1.13.0, 2.0.0

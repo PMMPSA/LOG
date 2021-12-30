@@ -1,0 +1,7 @@
+---
+sell:
+- §1[SELL]
+- '%1 %MONETARY_UNIT%'
+- '%2'
+- 'Amount : §l%3'
+...

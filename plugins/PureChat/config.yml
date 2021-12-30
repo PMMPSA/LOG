@@ -1,0 +1,40 @@
+---
+version: 1.4.0
+default-factions-plugin: FactionsPro
+groups:
+  Guest:
+    chat: §r§f♟§7._§fⱮɛɱცɛr§7_.§f♟§f {display_name} §7› §f{msg}
+    nametag: §r§f♟§7._§fⱮɛɱცɛr§7_.§f♟§f {display_name}
+    worlds: []
+  Owner:
+    chat: §r§bAdministrator §f{display_name} §c› §e{msg}
+    nametag: {display_name}
+    worlds: []
+  Helper:
+    chat: §r§e⇝§7….§dḨεłṕęr7.…§e⇜ §f{display_name} §7› §c{msg}
+    nametag: '§r§e⇝§7….§dḨεłṕęr7.…§e⇜ §f{display_name}'
+  Police:
+    chat: §r§c☜§f_§7.§9Ṕσłȋçε.§f_§c☞ §f{display_name} §7› §9{msg}
+    nametag: '§r§c☜§f_§7.§9Ṕσłȋçε.§f_§c☞ §f{display_name}'
+  Builder:
+    chat: §r§dᵜ§f.§7_§6βμįłḑεr_§f.§dᵜ §f{display_name} §7› §6{msg}
+    nametag: '§r§dᵜ§f.§7_§6βμįłḑεr_§f.§dᵜ §f{display_name}'
+  1:
+    nametag: '§r§7→….§fŁɛąɬɧɛr.§7§7.…← §f{display_name}'
+    chat: '§r§7→….§fŁɛąɬɧɛr.§7§7.…← §f{display_name} §7› §f{msg}'
+  2:
+    nametag: '§r§7→….§2Ẃơøɖɛŋ§7.…← §a{display_name}'
+    chat: '§r§7→….§2Ẃơøɖɛŋ§7.…← §a{display_name} §7› §a{msg}'
+  3:
+    nametag: '§r§7→….§fĮrøŋ§7.…← §f{display_name}'
+    chat: '§r§7→….§fĮrøŋ§7.…← §f{display_name} §7› §6{msg}'
+  4:
+    nametag: '§r§7→….§eƓøƖɖ§7.…← §f{display_name}'
+    chat: '§r§7→….§eƓøƖɖ§7.…← §f{display_name} §7› §e{msg}'
+  5:
+    nametag: '§r§7→….§bḒıąɱơŋɖ§7.…← §f{display_name}'
+    chat: '§r§7→….§bḒıąɱơŋɖ§7.…← §f{display_name} §7› {msg}'
+  6:
+    nametag: '§r§7→….§aƐɱɛrąƖɖ§7.…← §f{display_name}'
+    chat: '§r§7→….§aƐɱɛrąƖɖ§7.…← §f{display_name} §7› {msg}'
+...

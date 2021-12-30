@@ -1,0 +1,11 @@
+---
+provider: json
+mysql:
+  ip: 127.0.0.1
+  user: muqsit
+  pass: abcd123
+  database: vaultdb
+  port: 3306
+max-vaults: 25
+vaultinv-name: 'Vault #{VAULTNO}'
+...
